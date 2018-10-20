@@ -7,7 +7,12 @@ namespace ObjectLifetime
         static void Main(string[] args)
         {
             Car myCar = new Car();
+
+            Console.WriteLine("{0}",myCar.Make);
+
+            Console.ReadLine();
         }
+      
     }
 
     class Car
